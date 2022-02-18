@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.539,=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\Users\gizem\Desktop\2022Ödev\Unit1.dfm=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.324,=C:\Users\gizem\Desktop\2022Ödev\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.286,=C:\Users\gizem\Desktop\2022Ödev\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,=C:\Users\gizem\Desktop\2022Ödev\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.676,=C:\Users\gizem\Desktop\2022Ödev\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.158,C:\Users\gizem\Desktop\2022Ödev\Project1.dproj=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,=C:\Users\gizem\Desktop\2022Ödev\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.758,=C:\Users\gizem\Desktop\2022Ödev\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.775,=C:\Users\gizem\Desktop\2022Ödev\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,C:\Users\gizem\Desktop\2022Ödev\Unit1.pas=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

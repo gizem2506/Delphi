@@ -1,0 +1,66 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Data.DB, Vcl.ComCtrls, Data.Win.ADODB, Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls,
+  Vcl.Mask, Vcl.DBCtrls, Vcl.Buttons;
+
+type
+  TForm6 = class(TForm)
+    Image1: TImage;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    PageControl1: TPageControl;
+    ADOTable1: TADOTable;
+    TabSheet1: TTabSheet;
+    Image2: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    DBImage1: TDBImage;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    DBEdit3: TDBEdit;
+    DBEdit4: TDBEdit;
+    DBEdit5: TDBEdit;
+    DBEdit6: TDBEdit;
+    OpenDialog1: TOpenDialog;
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6.SpeedButton1Click(Sender: TObject);
+begin
+if OpenDialog1.Execute Then
+  begin
+    ADOTable1.Edit;
+    DBImage1.Picture.LoadFromFile(OpenDialog1.FileName);
+    ADOTable1.Post;
+  end;
+end;
+
+procedure TForm6.SpeedButton2Click(Sender: TObject);
+begin
+ADOTable1.Post;
+end;
+
+end.
