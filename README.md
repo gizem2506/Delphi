@@ -1,2 +1,2 @@
-# DelphiOtomasyon
-Görsel Programlama Dönem Sonu Proje Ödevim. Delphi programlama dili ile yapılmıştır.
+# Delphi Automation
+Visual Programming End of Term Project Assignment. Made with Delphi programming language.
